@@ -12,32 +12,32 @@ try:
 except:
     print "Invalid, or no file name provided"
 
-#of course I would loop this through every day of the year if I wasn't just doing four for now...
-#plot the heatmaps for tmin with the same zmin and zmax values
-data = [go.Heatmap(
-    z = tempMinJ,
-    zmin = -7,
-    zmax = 27,
-    )]
-py.plot(data)
+	#of course I would loop this through every day of the year if I wasn't just doing four 		for now...
+	#plot the heatmaps for tmin with the same zmin and zmax values
+	data = [go.Heatmap(
+ 	   z = tempMinJ,
+ 	   zmin = -7,
+  	  zmax = 27,
+  	  )]
+	py.plot(data)
 
-data = [go.Heatmap(
-    z = tempMinA,
-    zmin=-7,
-    zmax=27,
-    )]
-py.plot(data)
+	data = [go.Heatmap(
+  	  z = tempMinA,
+  	  zmin=-7,
+  	  zmax=27,
+  	  )]
+	py.plot(data)
 
-data = [go.Heatmap(
-    z = tempMinY,
-    zmin=-7,
-    zmax=27,
-    )]
-py.plot(data)
+	data = [go.Heatmap(
+   	 z = tempMinY,
+   	 zmin=-7,
+   	 zmax=27,
+   	 )]
+	py.plot(data)
 
-data = [go.Heatmap(
-    z = tempMinO,
-    zmin=-7,
-    zmax=27,
-    )]
-py.plot(data) #check your browser for the images (they're interactive!)
+	data = [go.Heatmap(
+  	  z = tempMinO,
+  	  zmin=-7,
+   	  zmax=27,
+    	)]
+	py.plot(data) #check your browser for the images (they're interactive!)
